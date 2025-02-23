@@ -1,0 +1,74 @@
+body {     
+    font-family: Arial, sans-serif; /* 전체 페이지의 폰트 스타일 지정 */     
+    margin: 0;     
+    padding: 0;     
+    background-color: #f4f4f4; /* 배경색 설정 */     
+    text-align: center; /* 전체 내용을 중앙 정렬 */ 
+}  
+
+h1, h2, h3 {     
+    text-align: left; /* 제목을 왼쪽 정렬 */ 
+}  
+
+h1 { color: #333; }  
+h2 { color: #07289f; }  
+h3 { color: #2d0369; }  
+
+p {     
+    font-size: 16px;     
+    color: #666;     
+    line-height: 1.2;     
+    margin: 10px;     
+    text-align: left; /* 문단을 왼쪽 정렬 */ 
+}  
+
+a {     
+    color: #000;     
+    text-decoration: none; /* 링크의 밑줄 제거 */ 
+}  
+
+a:hover {     
+    color: blue; /* 마우스 오버 시 링크 색상 변경 */ 
+}  
+
+ul {     
+    list-style: none;     
+    padding: 0; 
+}  
+
+li {     
+    background-color: #fff;     
+    margin-bottom: 5px;     
+    padding: 5px;     
+    border: 1px solid #ddd; 
+}  
+
+img {   
+    border: 1px solid #ddd;   
+    border-radius: 4px;   
+    padding: 5px;   
+    width: 320px; 
+}  
+
+div {     
+    margin: 20px;     
+    padding: 20px;     
+    background-color: yellow; /* 배경색 지정 */     
+    border: 1px solid #ddd; 
+}  
+
+.button {     
+    display: inline-block;   
+    padding: 10px 20px;     
+    margin: 10px 0;       
+    background-color: #4c81af;     
+    color: white;     
+    text-align: center;     
+    text-decoration: none;     
+    border-radius: 5px;     
+    font-size: 16px; 
+}  
+
+.button:hover {     
+    background-color: #eeee08; 
+}  
